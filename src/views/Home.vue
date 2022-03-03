@@ -10,9 +10,12 @@ const addCount = () => {
 
 <template>
   <div>{{ store.count }}</div>
-  <button @click="addCount">
+  <el-button
+    type="primary"
+    @click="addCount"
+  >
     add
-  </button>
+  </el-button>
 </template>
 
 <style scoped>
